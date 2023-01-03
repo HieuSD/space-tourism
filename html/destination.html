@@ -20,7 +20,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
   <!-- all css -->
   <link rel="stylesheet" href="../css/style.css">
-  <!-- home css -->
+  <!-- destination css -->
   <link rel="stylesheet" href="../css/destination.css">
 </head>
 
@@ -53,29 +53,31 @@
   </header>
   <!-- main -->
   <main class="star-pick">
-    <div class="container">
+    <div class="container px-5">
       <h2 class="pick"><span class="h2-sub">01</span> Pick your destination</h2>
       <article>
-
+        <!-- pick tab -->
         <ul class="nav nav-pills mt-5 justify-content-center" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link nav-active active" id="pills-moon-tab" data-bs-toggle="pill" data-bs-target="#pills-moon"
-              type="button" role="tab" aria-controls="pills-moon" aria-selected="true">Moon</button>
+            <button class="nav-link nav-active active" id="pills-moon-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-moon" type="button" role="tab" aria-controls="pills-moon"
+              aria-selected="true">Moon</button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-mars-tab" data-bs-toggle="pill" data-bs-target="#pills-mars"
               type="button" role="tab" aria-controls="pills-mars" aria-selected="false">Mars</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-europa-tab" data-bs-toggle="pill" data-bs-target="#pills-europa" type="button"
-              role="tab" aria-controls="pills-europa" aria-selected="false">Europa</button>
+            <button class="nav-link" id="pills-europa-tab" data-bs-toggle="pill" data-bs-target="#pills-europa"
+              type="button" role="tab" aria-controls="pills-europa" aria-selected="false">Europa</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-titian-tab" data-bs-toggle="pill" data-bs-target="#pills-titan" type="button"
-              role="tab" aria-controls="pills-titan" aria-selected="false">Titan</button>
+            <button class="nav-link" id="pills-titian-tab" data-bs-toggle="pill" data-bs-target="#pills-titan"
+              type="button" role="tab" aria-controls="pills-titan" aria-selected="false">Titan</button>
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
+
           <!-- moon -->
           <div class="tab-pane fade show active" id="pills-moon" role="tabpanel" aria-labelledby="pills-moon-tab"
             tabindex="0">
@@ -85,7 +87,9 @@
               </div>
               <div class="col mt-5">
                 <h1 class="star-title">MOON</h1>
-                <p class="star-description">See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                <p class="star-description">See our planet as you've never seen it before. A perfect relaxing trip away
+                  to help regain perspective and come back refreshed. While you're there, take in some history by
+                  visiting the Luna 2 and Apollo 11 landing sites.</p>
                 <div class="row row-cols-2 star-sub">
                   <div class="col">
                     <h5 class="sub-title">AVG. DISTANCE</h5>
@@ -99,6 +103,7 @@
               </div>
             </div>
           </div>
+
           <!-- mars -->
           <div class="tab-pane fade" id="pills-mars" role="tabpanel" aria-labelledby="pills-mars-tab" tabindex="0">
             <div class="row row-cols-1 row-cols-lg-2">
@@ -107,7 +112,9 @@
               </div>
               <div class="col mt-5">
                 <h1 class="star-title">MARS</h1>
-                <p class="star-description">Don't forget to pack your hiking boots. You'll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It's two and a half times the size of Everest!</p>
+                <p class="star-description">Don't forget to pack your hiking boots. You'll need them to tackle Olympus
+                  Mons, the tallest planetary mountain in our solar system. It's two and a half times the size of
+                  Everest!</p>
                 <div class="row row-cols-2 star-sub">
                   <div class="col">
                     <h5 class="sub-title">AVG. DISTANCE</h5>
@@ -121,6 +128,7 @@
               </div>
             </div>
           </div>
+
           <!-- europa -->
           <div class="tab-pane fade" id="pills-europa" role="tabpanel" aria-labelledby="pills-europa-tab" tabindex="0">
             <div class="row row-cols-1 row-cols-lg-2">
@@ -129,7 +137,9 @@
               </div>
               <div class="col mt-5">
                 <h1 class="star-title">EUROPA</h1>
-                <p class="star-description">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover's dream. With an icy surface, it's perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+                <p class="star-description">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter
+                  lover's dream. With an icy surface, it's perfect for a bit of ice skating, curling, hockey, or simple
+                  relaxation in your snug wintery cabin.</p>
                 <div class="row row-cols-2 star-sub">
                   <div class="col">
                     <h5 class="sub-title">AVG. DISTANCE</h5>
@@ -143,6 +153,7 @@
               </div>
             </div>
           </div>
+
           <!-- titan -->
           <div class="tab-pane fade" id="pills-titan" role="tabpanel" aria-labelledby="pills-titan-tab" tabindex="0">
             <div class="row row-cols-1 row-cols-lg-2">
@@ -151,7 +162,9 @@
               </div>
               <div class="col mt-5">
                 <h1 class="star-title">TITAN</h1>
-                <p class="star-description">The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+                <p class="star-description">The only moon known to have a dense atmosphere other than Earth, Titan is a
+                  home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the
+                  Rings of Saturn.</p>
                 <div class="row row-cols-2 star-sub">
                   <div class="col">
                     <h5 class="sub-title">AVG. DISTANCE</h5>
