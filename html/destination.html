@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Tourism</title>
+  <!-- fonts family -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+    rel="stylesheet">
+  <!-- bootstrap 5.3 cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- font awesome 6.2 cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <!-- all css -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- home css -->
+  <link rel="stylesheet" href="../css/destination.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="">
+    <div class="">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand ms-5" href="../index.html"><img class="logo" src="../assets/shared/logo.svg" alt=""></a>
+        <button class="navbar-toggler me-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#primary-nav"
+          aria-controls="primary-nav">
+          <span class="navbar-toggler-icon ms-auto"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end ms-auto" tabindex="-1" id="primary-nav">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="../index.html">00 HOME</a></li>
+              <li class="nav-item"><a class="nav-link nav-active" href="">01 DESTINATION</a></li>
+              <li class="nav-item"><a class="nav-link" href="">02 CREW</a></li>
+              <li class="nav-item"><a class="nav-link" href="">03 TECHNOLOGY</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- main -->
+  <main class="star-pick">
+    <div class="container">
+      <h2 class="pick"><span class="pick-sub">01</span> Pick your destination</h2>
+      <article>
+
+        <ul class="nav nav-pills mt-5 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link nav-active active" id="pills-moon-tab" data-bs-toggle="pill" data-bs-target="#pills-moon"
+              type="button" role="tab" aria-controls="pills-moon" aria-selected="true">Moon</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-mars-tab" data-bs-toggle="pill" data-bs-target="#pills-mars"
+              type="button" role="tab" aria-controls="pills-mars" aria-selected="false">Mars</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-europa-tab" data-bs-toggle="pill" data-bs-target="#pills-europa" type="button"
+              role="tab" aria-controls="pills-europa" aria-selected="false">Europa</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-titian-tab" data-bs-toggle="pill" data-bs-target="#pills-titan" type="button"
+              role="tab" aria-controls="pills-titan" aria-selected="false">Titan</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <!-- moon -->
+          <div class="tab-pane fade show active" id="pills-moon" role="tabpanel" aria-labelledby="pills-moon-tab"
+            tabindex="0">
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col mt-5">
+                <img class="star-img" src="../assets/destination/image-moon.png" alt="">
+              </div>
+              <div class="col mt-5">
+                <h1 class="star-title">MOON</h1>
+                <p class="star-description">See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                <div class="row row-cols-2 star-sub">
+                  <div class="col">
+                    <h5 class="sub-title">AVG. DISTANCE</h5>
+                    <h6 class="sub-description">384,400 km</h6>
+                  </div>
+                  <div class="col">
+                    <h5 class="sub-title">Est. travel time</h5>
+                    <h6 class="sub-description">3 days</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mars -->
+          <div class="tab-pane fade" id="pills-mars" role="tabpanel" aria-labelledby="pills-mars-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col mt-5">
+                <img class="star-img" src="../assets/destination/image-mars.png" alt="">
+              </div>
+              <div class="col mt-5">
+                <h1 class="star-title">MARS</h1>
+                <p class="star-description">Don't forget to pack your hiking boots. You'll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It's two and a half times the size of Everest!</p>
+                <div class="row row-cols-2 star-sub">
+                  <div class="col">
+                    <h5 class="sub-title">AVG. DISTANCE</h5>
+                    <h6 class="sub-description">225 MIL. KM</h6>
+                  </div>
+                  <div class="col">
+                    <h5 class="sub-title">Est. travel time</h5>
+                    <h6 class="sub-description">9 MONTHS</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- europa -->
+          <div class="tab-pane fade" id="pills-europa" role="tabpanel" aria-labelledby="pills-europa-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col mt-5">
+                <img class="star-img" src="../assets/destination/image-europa.png" alt="">
+              </div>
+              <div class="col mt-5">
+                <h1 class="star-title">EUROPA</h1>
+                <p class="star-description">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover's dream. With an icy surface, it's perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+                <div class="row row-cols-2 star-sub">
+                  <div class="col">
+                    <h5 class="sub-title">AVG. DISTANCE</h5>
+                    <h6 class="sub-description">628 MIL. KM</h6>
+                  </div>
+                  <div class="col">
+                    <h5 class="sub-title">Est. travel time</h5>
+                    <h6 class="sub-description">3 YEARS</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- titan -->
+          <div class="tab-pane fade" id="pills-titan" role="tabpanel" aria-labelledby="pills-titan-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col mt-5">
+                <img class="star-img" src="../assets/destination/image-titan.png" alt="">
+              </div>
+              <div class="col mt-5">
+                <h1 class="star-title">TITAN</h1>
+                <p class="star-description">The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+                <div class="row row-cols-2 star-sub">
+                  <div class="col">
+                    <h5 class="sub-title">AVG. DISTANCE</h5>
+                    <h6 class="sub-description">1.6 BIL. KM</h6>
+                  </div>
+                  <div class="col">
+                    <h5 class="sub-title">Est. travel time</h5>
+                    <h6 class="sub-description">7 YEARS</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+<!-- bootstrap 5.3 js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</html>

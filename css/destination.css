@@ -1,0 +1,79 @@
+body{
+    background: url(../assets/destination/background-destination-mobile.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+@media (min-width:768px){
+    body{
+        background: url(../assets/destination/background-destination-tablet.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+@media (min-width:992px){
+    body{
+        background: url(../assets/destination/background-destination-desktop.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 4.72px;
+    color: #fff;
+}
+.pick-sub{
+    font-weight: bold;
+    opacity: 0.25;
+}
+/* pills tab */
+.nav-link{
+    line-height: 34px;
+    margin-right: 2rem;
+}
+.star-img{
+    margin: auto;
+    max-width: 445px;
+}
+.star-title{
+    font-family: 'Bellefair', serif;
+    font-size: 6.25rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: center;
+}
+.star-description{
+    font-size: 1.125rem;
+    color: #D0D6F9;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #383B4B;
+}
+.star-sub{
+    margin-top: 2rem;
+    padding-bottom: 2.25rem;
+    text-align: center;
+}
+.sub-title{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: 2.36px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+}
+.sub-description{
+    font-family: 'Bellefair', serif;
+    font-size: 1.75rem;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.star-pick .nav-link.active{
+    background-color: transparent;
+}
+@media (min-width:992px){
+    .star-title,
+    .star-sub{
+        text-align: left;
+    }
+}
