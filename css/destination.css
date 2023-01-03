@@ -14,17 +14,6 @@ body{
         background-size: cover;
     }
 }
-h2{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.75rem;
-    font-weight: 400;
-    letter-spacing: 4.72px;
-    color: #fff;
-}
-.pick-sub{
-    font-weight: bold;
-    opacity: 0.25;
-}
 /* pills tab */
 .nav-pills .nav-link{
     line-height: 34px;

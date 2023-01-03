@@ -91,3 +91,15 @@ main{
 .btn-close{
     background-color: #fff;
 }
+/* pick */
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 4.72px;
+    color: #fff;
+}
+.h2-sub{
+    font-weight: bold;
+    opacity: 0.25;
+}

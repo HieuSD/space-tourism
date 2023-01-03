@@ -43,6 +43,10 @@ body{
     line-height: 32px;
     margin-top: 1.5rem;
 }
+.right{
+    justify-content: space-around;
+    align-items: center;
+}
 .btn-cricle{
     width: 274px;
     height: 274px;
