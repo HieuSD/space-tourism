@@ -1,104 +1,114 @@
-body{
-    background: url(../assets/technology/background-technology-mobile.jpg) no-repeat center center fixed;
+body {
+  background: url(../assets/technology/background-technology-mobile.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  body {
+    background: url(../assets/technology/background-technology-tablet.jpg)
+      no-repeat center center fixed;
     background-size: cover;
+  }
 }
-@media (min-width:768px){
-    body{
-        background: url(../assets/technology/background-technology-tablet.jpg) no-repeat center center fixed;
-        background-size: cover;
-    }
+@media (min-width: 992px) {
+  body {
+    background: url(../assets/technology/background-technology-desktop.jpg)
+      no-repeat center center fixed;
+    background-size: cover;
+  }
 }
-@media (min-width:992px){
-    body{
-        background: url(../assets/technology/background-technology-desktop.jpg) no-repeat center center fixed;
-        background-size: cover;
-    }
+/* header nav */
+#header ul li:last-child a::after {
+  background: #ffffff;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
 }
 /* main */
-.nav-pills{
-    margin-right: 80px;
+.nav-pills {
+  margin-right: 80px;
 }
-.nav-pills .nav-link{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: .5px solid #fff;
-    margin: 1rem;
-    color: #fff;
-    font-family: 'Bellefair', serif;
-    font-weight: 400;
-    font-size: 2rem;
+.nav-pills .nav-link {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 0.5px solid #fff;
+  margin: 1rem;
+  color: #fff;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 2rem;
 }
-.nav-pills .nav-link.active{
-    background-color: #fff;
-    color: #0B0D17;
+.nav-pills .nav-link.active {
+  background-color: #fff;
+  color: #0b0d17;
 }
-.space-left{
-    display: flex;
+.space-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.space-title {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+}
+.space-sub {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #d0d6f9;
+  letter-spacing: 2.7px;
+  margin-top: 2rem;
+}
+.space-description {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 32px;
+  color: #d0d6f9;
+}
+.desktop-img {
+  display: none;
+}
+.mobile-img {
+  display: block;
+  height: 250px;
+  margin-bottom: 100px;
+  margin-top: 2rem;
+}
+@media (max-width: 991px) {
+  .space-right {
+    order: 1;
+  }
+  .space-left {
+    order: 2;
+    text-align: center;
+  }
+  .nav-main {
     flex-direction: column;
+    position: relative;
+  }
+  .nav-pills {
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    margin-right: 0;
+    display: flex;
     justify-content: center;
-    text-align: left;
+  }
+  .nav-link {
+    margin: 0 0.5rem;
+  }
 }
-.space-title{
-    font-family: 'Bellefair', serif;
-    font-weight: 400;
-    font-size: 3.5rem;
-    margin-top: 2rem;
-}
-.space-sub{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #D0D6F9;
-    letter-spacing: 2.7px;
-    margin-top: 2rem;
-}
-.space-description{
-    font-family: 'Barlow', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 32px;
-    color: #D0D6F9;
-}
-.desktop-img{
-    display: none;
-}
-.mobile-img{
+@media (min-width: 992px) {
+  .desktop-img {
     display: block;
-    height: 250px;
-    margin-bottom: 100px;
-    margin-top: 2rem;
-}
-@media (max-width:991px){
-    .space-right{
-        order: 1;
-    }
-    .space-left{
-        order: 2;
-        text-align: center;
-    }
-    .nav-main{
-        flex-direction: column;
-        position: relative;
-    }
-    .nav-pills{
-        width: 100%;
-        position: absolute;
-        top: 300px;
-        margin-right: 0;
-        display: flex;
-        justify-content: center;
-        
-    }
-    .nav-link{
-        margin: 0 .5rem;
-    }
-}
-@media (min-width:992px){
-    .desktop-img{
-        display: block;
-    }
-    .mobile-img{
-        display: none;
-    }
+  }
+  .mobile-img {
+    display: none;
+  }
 }

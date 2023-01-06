@@ -1,80 +1,91 @@
-body{
-    background: url(../assets/destination/background-destination-mobile.jpg) no-repeat center center fixed;
+body {
+  background: url(../assets/destination/background-destination-mobile.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  body {
+    background: url(../assets/destination/background-destination-tablet.jpg)
+      no-repeat center center fixed;
     background-size: cover;
+  }
 }
-@media (min-width:768px){
-    body{
-        background: url(../assets/destination/background-destination-tablet.jpg) no-repeat center center fixed;
-        background-size: cover;
-    }
+@media (min-width: 992px) {
+  body {
+    background: url(../assets/destination/background-destination-desktop.jpg)
+      no-repeat center center fixed;
+    background-size: cover;
+  }
 }
-@media (min-width:992px){
-    body{
-        background: url(../assets/destination/background-destination-desktop.jpg) no-repeat center center fixed;
-        background-size: cover;
-    }
+/* header nav */
+#header ul li:nth-child(2) a::after {
+  background: #ffffff;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
 }
 /* pills tab */
-.nav-pills .nav-link{
-    line-height: 34px;
-    padding: 0 0 0.75rem 0;
-    margin: 0 1.125rem;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
-    color: #fff;
-    letter-spacing: 2.7px;
-    border-radius: 0;
+.nav-pills .nav-link {
+  line-height: 34px;
+  padding: 0 0 0.75rem 0;
+  margin: 0 1.125rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #fff;
+  letter-spacing: 2.7px;
+  border-radius: 0;
 }
 .nav-pills .nav-link:hover,
-.nav-pills .nav-link.active{
-    border-bottom: 3px solid #fff;
+.nav-pills .nav-link.active {
+  border-bottom: 3px solid #fff;
 }
 
-.star-img{
-    margin: auto;
-    max-width: 445px;
+.star-img {
+  margin: auto;
+  max-width: 445px;
 }
-.star-title{
-    font-family: 'Bellefair', serif;
-    font-size: 6.25rem;
-    font-weight: 400;
-    letter-spacing: 0;
-    text-align: center;
+.star-title {
+  font-family: "Bellefair", serif;
+  font-size: 6.25rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: center;
 }
-.star-description{
-    font-size: 1.125rem;
-    color: #D0D6F9;
-    margin-top: 1rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #383B4B;
+.star-description {
+  font-size: 1.125rem;
+  color: #d0d6f9;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #383b4b;
 }
-.star-sub{
-    margin-top: 2rem;
-    padding-bottom: 2.25rem;
-    text-align: center;
+.star-sub {
+  margin-top: 2rem;
+  padding-bottom: 2.25rem;
+  text-align: center;
 }
-.sub-title{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 400;
-    font-size: .875rem;
-    letter-spacing: 2.36px;
-    color: #D0D6F9;
-    text-transform: uppercase;
+.sub-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 2.36px;
+  color: #d0d6f9;
+  text-transform: uppercase;
 }
-.sub-description{
-    font-family: 'Bellefair', serif;
-    font-size: 1.75rem;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    margin-top: 1rem;
+.sub-description {
+  font-family: "Bellefair", serif;
+  font-size: 1.75rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin-top: 1rem;
 }
-.star-pick .nav-link.active{
-    background-color: transparent;
+.star-pick .nav-link.active {
+  background-color: transparent;
 }
-@media (min-width:992px){
-    .star-title,
-    .star-sub{
-        text-align: left;
-    }
+@media (min-width: 992px) {
+  .star-title,
+  .star-sub {
+    text-align: left;
+  }
 }
